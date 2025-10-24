@@ -2795,16 +2795,16 @@
       <![CDATA[✅ Reproducción completada exitosamente<br/>]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-10-24T03:28:29 GMT-05:00" name="Suite1" finished-at="2025-10-24T03:30:28 GMT-05:00" duration-ms="118711">
+  <suite started-at="2025-10-24T03:50:28 GMT-05:00" name="Suite1" finished-at="2025-10-24T03:52:26 GMT-05:00" duration-ms="117449">
     <groups>
     </groups>
-    <test started-at="2025-10-24T03:28:29 GMT-05:00" name="TestNG" finished-at="2025-10-24T03:30:28 GMT-05:00" duration-ms="118711">
+    <test started-at="2025-10-24T03:50:28 GMT-05:00" name="TestNG" finished-at="2025-10-24T03:52:26 GMT-05:00" duration-ms="117449">
       <class name="com.pdcj.VirtualPianoTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:28:29 GMT-05:00" name="beforeTest" finished-at="2025-10-24T03:28:34 GMT-05:00" duration-ms="5445" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:50:28 GMT-05:00" name="beforeTest" finished-at="2025-10-24T03:50:34 GMT-05:00" duration-ms="5978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="test1()[pri:1, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:28:34 GMT-05:00" name="test1" finished-at="2025-10-24T03:28:54 GMT-05:00" duration-ms="20044" status="PASS">
+        <test-method signature="test1()[pri:1, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:50:34 GMT-05:00" name="test1" finished-at="2025-10-24T03:50:54 GMT-05:00" duration-ms="19112" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[🎵 Iniciando reproducción de canción con 15 notas<br/>]]>
@@ -3279,15 +3279,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:28:54 GMT-05:00" name="tearDown" finished-at="2025-10-24T03:28:55 GMT-05:00" duration-ms="499" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:50:54 GMT-05:00" name="tearDown" finished-at="2025-10-24T03:50:54 GMT-05:00" duration-ms="448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:28:55 GMT-05:00" name="beforeTest" finished-at="2025-10-24T03:28:59 GMT-05:00" duration-ms="4135" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:50:54 GMT-05:00" name="beforeTest" finished-at="2025-10-24T03:50:58 GMT-05:00" duration-ms="4418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="test2()[pri:2, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:28:59 GMT-05:00" name="test2" finished-at="2025-10-24T03:29:31 GMT-05:00" duration-ms="32236" status="PASS">
+        <test-method signature="test2()[pri:2, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:50:58 GMT-05:00" name="test2" finished-at="2025-10-24T03:51:33 GMT-05:00" duration-ms="34755" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[🎵 Iniciando reproducción de canción con 30 notas<br/>]]>
@@ -4212,15 +4212,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:29:31 GMT-05:00" name="tearDown" finished-at="2025-10-24T03:29:32 GMT-05:00" duration-ms="330" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:51:33 GMT-05:00" name="tearDown" finished-at="2025-10-24T03:51:34 GMT-05:00" duration-ms="342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:29:32 GMT-05:00" name="beforeTest" finished-at="2025-10-24T03:29:37 GMT-05:00" duration-ms="4949" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:51:34 GMT-05:00" name="beforeTest" finished-at="2025-10-24T03:51:38 GMT-05:00" duration-ms="4628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="test3()[pri:3, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:29:37 GMT-05:00" name="test3" finished-at="2025-10-24T03:30:27 GMT-05:00" duration-ms="50591" status="PASS">
+        <test-method signature="test3()[pri:3, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:51:38 GMT-05:00" name="test3" finished-at="2025-10-24T03:52:26 GMT-05:00" duration-ms="47421" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[🎵 Iniciando reproducción de canción con 47 notas<br/>]]>
@@ -5625,7 +5625,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:30:27 GMT-05:00" name="tearDown" finished-at="2025-10-24T03:30:28 GMT-05:00" duration-ms="409" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:52:26 GMT-05:00" name="tearDown" finished-at="2025-10-24T03:52:26 GMT-05:00" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
