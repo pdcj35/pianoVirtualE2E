@@ -1,0 +1,5635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[🎵 Iniciando reproducción de canción con 15 notas<br/>]]>
+    </line>
+    <line>
+      <![CDATA[📝 Secuencia: 1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1si,1la,1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[═══════════════════════════════════════════════════<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #1/15<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #2/15<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #3/15<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #4/15<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #5/15<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #6/15<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #7/15<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #8/15<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #9/15<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #10/15<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #11/15<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #12/15<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #13/15<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #14/15<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #15/15<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[═══════════════════════════════════════════════════<br/>]]>
+    </line>
+    <line>
+      <![CDATA[✅ Reproducción completada exitosamente<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎵 Iniciando reproducción de canción con 30 notas<br/>]]>
+    </line>
+    <line>
+      <![CDATA[📝 Secuencia: 1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1si,1la,1la,1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1si,1la,1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[═══════════════════════════════════════════════════<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #1/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #2/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #3/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #4/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #5/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #6/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #7/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #8/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #9/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #10/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #11/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #12/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #13/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #14/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #15/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #16/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #17/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #18/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #19/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #20/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #21/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #22/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #23/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #24/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #25/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #26/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #27/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #28/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #29/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #30/30<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[═══════════════════════════════════════════════════<br/>]]>
+    </line>
+    <line>
+      <![CDATA[✅ Reproducción completada exitosamente<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎵 Iniciando reproducción de canción con 47 notas<br/>]]>
+    </line>
+    <line>
+      <![CDATA[📝 Secuencia: 1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1la,1sol,1sol,1la,1si,1sol,1la,1si,2do,1si,1sol,1la,1si,2do,1si,1sol,1sol,1la,2re,,1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1si,1la,1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[═══════════════════════════════════════════════════<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #1/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #2/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #3/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #4/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #5/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #6/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #7/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #8/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #9/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #10/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #11/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #12/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #13/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #14/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #15/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #16/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #17/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #18/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #19/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #20/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #21/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #22/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #23/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #24/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #25/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #26/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #27/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #28/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #29/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #30/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #31/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #32/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #33/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #34/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #35/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #36/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #37/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #38/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #39/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #40/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #41/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #42/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #43/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #44/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #45/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[🎹 Nota #46/47<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+    </line>
+    <line>
+      <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[<br/>]]>
+    </line>
+    <line>
+      <![CDATA[═══════════════════════════════════════════════════<br/>]]>
+    </line>
+    <line>
+      <![CDATA[✅ Reproducción completada exitosamente<br/>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-10-24T03:28:29 GMT-05:00" name="Suite1" finished-at="2025-10-24T03:30:28 GMT-05:00" duration-ms="118711">
+    <groups>
+    </groups>
+    <test started-at="2025-10-24T03:28:29 GMT-05:00" name="TestNG" finished-at="2025-10-24T03:30:28 GMT-05:00" duration-ms="118711">
+      <class name="com.pdcj.VirtualPianoTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:28:29 GMT-05:00" name="beforeTest" finished-at="2025-10-24T03:28:34 GMT-05:00" duration-ms="5445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="test1()[pri:1, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:28:34 GMT-05:00" name="test1" finished-at="2025-10-24T03:28:54 GMT-05:00" duration-ms="20044" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🎵 Iniciando reproducción de canción con 15 notas<br/>]]>
+            </line>
+            <line>
+              <![CDATA[📝 Secuencia: 1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1si,1la,1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[═══════════════════════════════════════════════════<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #1/15<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #2/15<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #3/15<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #4/15<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #5/15<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #6/15<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #7/15<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #8/15<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #9/15<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #10/15<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #11/15<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #12/15<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #13/15<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #14/15<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #15/15<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[═══════════════════════════════════════════════════<br/>]]>
+            </line>
+            <line>
+              <![CDATA[✅ Reproducción completada exitosamente<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:28:54 GMT-05:00" name="tearDown" finished-at="2025-10-24T03:28:55 GMT-05:00" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:28:55 GMT-05:00" name="beforeTest" finished-at="2025-10-24T03:28:59 GMT-05:00" duration-ms="4135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="test2()[pri:2, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:28:59 GMT-05:00" name="test2" finished-at="2025-10-24T03:29:31 GMT-05:00" duration-ms="32236" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🎵 Iniciando reproducción de canción con 30 notas<br/>]]>
+            </line>
+            <line>
+              <![CDATA[📝 Secuencia: 1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1si,1la,1la,1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1si,1la,1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[═══════════════════════════════════════════════════<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #1/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #2/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #3/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #4/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #5/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #6/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #7/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #8/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #9/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #10/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #11/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #12/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #13/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #14/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #15/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #16/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #17/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #18/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #19/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #20/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #21/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #22/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #23/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #24/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #25/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #26/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #27/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #28/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #29/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #30/30<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[═══════════════════════════════════════════════════<br/>]]>
+            </line>
+            <line>
+              <![CDATA[✅ Reproducción completada exitosamente<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:29:31 GMT-05:00" name="tearDown" finished-at="2025-10-24T03:29:32 GMT-05:00" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:29:32 GMT-05:00" name="beforeTest" finished-at="2025-10-24T03:29:37 GMT-05:00" duration-ms="4949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="test3()[pri:3, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:29:37 GMT-05:00" name="test3" finished-at="2025-10-24T03:30:27 GMT-05:00" duration-ms="50591" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🎵 Iniciando reproducción de canción con 47 notas<br/>]]>
+            </line>
+            <line>
+              <![CDATA[📝 Secuencia: 1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1la,1sol,1sol,1la,1si,1sol,1la,1si,2do,1si,1sol,1la,1si,2do,1si,1sol,1sol,1la,2re,,1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1si,1la,1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[═══════════════════════════════════════════════════<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #1/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #2/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #3/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #4/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #5/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #6/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #7/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #8/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #9/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #10/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #11/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #12/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #13/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #14/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #15/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #16/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #17/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #18/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #19/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #20/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #21/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #22/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #23/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #24/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #25/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #26/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #27/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #28/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #29/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #30/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #31/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #32/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #33/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #34/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #35/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #36/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #37/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #38/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #39/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #40/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #41/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #42/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #43/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #44/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #45/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[🎹 Nota #46/47<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/>]]>
+            </line>
+            <line>
+              <![CDATA[&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[<br/>]]>
+            </line>
+            <line>
+              <![CDATA[═══════════════════════════════════════════════════<br/>]]>
+            </line>
+            <line>
+              <![CDATA[✅ Reproducción completada exitosamente<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pdcj.VirtualPianoTest@50b472aa]" started-at="2025-10-24T03:30:27 GMT-05:00" name="tearDown" finished-at="2025-10-24T03:30:28 GMT-05:00" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pdcj.VirtualPianoTest -->
+    </test> <!-- TestNG -->
+  </suite> <!-- Suite1 -->
+</testng-results>

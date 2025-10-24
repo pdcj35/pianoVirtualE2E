@@ -1,0 +1,1044 @@
+<html>
+<head>
+<title>TestNG:  TestNG</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestNG</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 24 03:28:29 GMT-05:00 2025</td>
+</tr>
+<tr><td>Total time:</td><td>118 seconds (118711 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.pdcj.VirtualPianoTest.test3()'><b>test3</b><br>Test class: com.pdcj.VirtualPianoTest<br/>
+<a href="#Output-455726379" onClick='toggleBox("Output-455726379", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-455726379" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-455726379">
+🎵 Iniciando reproducción de canción con 47 notas<br/><br/>
+📝 Secuencia: 1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1la,1sol,1sol,1la,1si,1sol,1la,1si,2do,1si,1sol,1la,1si,2do,1si,1sol,1sol,1la,2re,,1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1si,1la,1la<br/><br/>
+═══════════════════════════════════════════════════<br/><br/>
+<br/><br/>
+🎹 Nota #1/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #2/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #3/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #4/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #5/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #6/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #7/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #8/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #9/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #10/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #11/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #12/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #13/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #14/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #15/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #16/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #17/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #18/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #19/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #20/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #21/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #22/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #23/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #24/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #25/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #26/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #27/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #28/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #29/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #30/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #31/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #32/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #33/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #34/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #35/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #36/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #37/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #38/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #39/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #40/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #41/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #42/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #43/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #44/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #45/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #46/47<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+<br/><br/>
+═══════════════════════════════════════════════════<br/><br/>
+✅ Reproducción completada exitosamente<br/><br/>
+</div>
+</td>
+<td></td>
+<td>50</td>
+<td>com.pdcj.VirtualPianoTest@50b472aa</td></tr>
+<tr>
+<td title='com.pdcj.VirtualPianoTest.test2()'><b>test2</b><br>Test class: com.pdcj.VirtualPianoTest<br/>
+<a href="#Output-1237144823" onClick='toggleBox("Output-1237144823", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1237144823" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1237144823">
+🎵 Iniciando reproducción de canción con 30 notas<br/><br/>
+📝 Secuencia: 1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1si,1la,1la,1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1si,1la,1la<br/><br/>
+═══════════════════════════════════════════════════<br/><br/>
+<br/><br/>
+🎹 Nota #1/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #2/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #3/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #4/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #5/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #6/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #7/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #8/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #9/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #10/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #11/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #12/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #13/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #14/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #15/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #16/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #17/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #18/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #19/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #20/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #21/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #22/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #23/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #24/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #25/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #26/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #27/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #28/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #29/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #30/30<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+<br/><br/>
+═══════════════════════════════════════════════════<br/><br/>
+✅ Reproducción completada exitosamente<br/><br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>com.pdcj.VirtualPianoTest@50b472aa</td></tr>
+<tr>
+<td title='com.pdcj.VirtualPianoTest.test1()'><b>test1</b><br>Test class: com.pdcj.VirtualPianoTest<br/>
+<a href="#Output-948675904" onClick='toggleBox("Output-948675904", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-948675904" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-948675904">
+🎵 Iniciando reproducción de canción con 15 notas<br/><br/>
+📝 Secuencia: 1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1si,1la,1la<br/><br/>
+═══════════════════════════════════════════════════<br/><br/>
+<br/><br/>
+🎹 Nota #1/15<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #2/15<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #3/15<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #4/15<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #5/15<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #6/15<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #7/15<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #8/15<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #9/15<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #10/15<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #11/15<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #12/15<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #13/15<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #14/15<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+🎹 Nota #15/15<br/><br/>
+&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/><br/>
+&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/><br/>
+&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/><br/>
+&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/><br/>
+&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/><br/>
+&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/><br/>
+&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/><br/>
+&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/><br/>
+<br/><br/>
+<br/><br/>
+═══════════════════════════════════════════════════<br/><br/>
+✅ Reproducción completada exitosamente<br/><br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.pdcj.VirtualPianoTest@50b472aa</td></tr>
+</table><p>
+</body>
+</html>

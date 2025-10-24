@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite1" class="navigator-link">
+              <span class="suite-name border-passed">Suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite1" class="navigator-link ">
+                    <span>C:\Users\Pablo C\Desktop\e2epiano\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite1" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite1" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite1" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite1" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite1" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite1" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods passed suite-Suite1"> (hide)</a> <!-- hide-methods passed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite1">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.pdcj.VirtualPianoTest" class="method navigator-link" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.pdcj.VirtualPianoTest" class="method navigator-link" hash-for-method="test2">test2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.pdcj.VirtualPianoTest" class="method navigator-link" hash-for-method="test3">test3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pdcj.VirtualPianoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1">
+                  </a> <!-- test1 -->
+                  <span class="method-name">test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2">
+                  </a> <!-- test2 -->
+                  <span class="method-name">test2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test3">
+                  </a> <!-- test3 -->
+                  <span class="method-name">test3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="test-xml-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Pablo C\Desktop\e2epiano\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestNG&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pdcj.VirtualPianoTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;test1&quot;/&gt;
+          &lt;include name=&quot;test2&quot;/&gt;
+          &lt;include name=&quot;test3&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.pdcj.VirtualPianoTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestNG --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestNG (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test3')
+data.setCell(0, 2, 'com.pdcj.VirtualPianoTest')
+data.setCell(0, 3, 50591);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test2')
+data.setCell(1, 2, 'com.pdcj.VirtualPianoTest')
+data.setCell(1, 3, 32236);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test1')
+data.setCell(2, 2, 'com.pdcj.VirtualPianoTest')
+data.setCell(2, 3, 20044);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test3</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">🎵 Iniciando reproducción de canción con 47 notas<br/></span>
+                <span class="reporter-method-output">📝 Secuencia: 1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1la,1sol,1sol,1la,1si,1sol,1la,1si,2do,1si,1sol,1la,1si,2do,1si,1sol,1sol,1la,2re,,1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1si,1la,1la<br/></span>
+                <span class="reporter-method-output">═══════════════════════════════════════════════════<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #1/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #2/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #3/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #4/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #5/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #6/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #7/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #8/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #9/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #10/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #11/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #12/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #13/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #14/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #15/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #16/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #17/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #18/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #19/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #20/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #21/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #22/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #23/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #24/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #25/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #26/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #27/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #28/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #29/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #30/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #31/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #32/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #33/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #34/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #35/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #36/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #37/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #38/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #39/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #40/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #41/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #42/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #43/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #44/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #45/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #46/47<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">═══════════════════════════════════════════════════<br/></span>
+                <span class="reporter-method-output">✅ Reproducción completada exitosamente<br/></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">🎵 Iniciando reproducción de canción con 30 notas<br/></span>
+                <span class="reporter-method-output">📝 Secuencia: 1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1si,1la,1la,1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1si,1la,1la<br/></span>
+                <span class="reporter-method-output">═══════════════════════════════════════════════════<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #1/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #2/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #3/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #4/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #5/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #6/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #7/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #8/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #9/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #10/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #11/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #12/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #13/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #14/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #15/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #16/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #17/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #18/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #19/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #20/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #21/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #22/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #23/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #24/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #25/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #26/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #27/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #28/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #29/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #30/30<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">═══════════════════════════════════════════════════<br/></span>
+                <span class="reporter-method-output">✅ Reproducción completada exitosamente<br/></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">🎵 Iniciando reproducción de canción con 15 notas<br/></span>
+                <span class="reporter-method-output">📝 Secuencia: 1si,1si,2do,2re,2re,2do,1si,1la,1sol,1sol,1la,1si,1si,1la,1la<br/></span>
+                <span class="reporter-method-output">═══════════════════════════════════════════════════<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #1/15<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #2/15<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #3/15<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #4/15<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #5/15<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2re <--> salida=2re<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: y (data-note: 2d)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #6/15<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=2do <--> salida=2do<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: t (data-note: 2c)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #7/15<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #8/15<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #9/15<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #10/15<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1sol <--> salida=1sol<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: w (data-note: 1g)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #11/15<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #12/15<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #13/15<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1si <--> salida=1si<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: r (data-note: 1b)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #14/15<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">🎹 Nota #15/15<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📥 Entrada: 1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;📤 Salida:  1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔍 Verificación: entrada=1la <--> salida=1la<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;✓ Verificación exitosa<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⌨️  Presionando tecla: e (data-note: 1a)<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏱️  Manteniendo presionada por 300ms<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;🔓 Tecla liberada<br/></span>
+                <span class="reporter-method-output">&nbsp;&nbsp;&nbsp;⏸️  Pausa entre notas: 500ms<br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output"><br/></span>
+                <span class="reporter-method-output">═══════════════════════════════════════════════════<br/></span>
+                <span class="reporter-method-output">✅ Reproducción completada exitosamente<br/></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pdcj.VirtualPianoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test1</span>
+                <span class="method-start">5446 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25497 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">26000 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test2</span>
+                <span class="method-start">30135 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62371 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">62702 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test3</span>
+                <span class="method-start">67651 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">118243 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
